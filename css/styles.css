@@ -3,19 +3,46 @@ body {
   color: #434455;
   background-color: #fff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
 ul {
   list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
 }
 a {
   text-decoration: none;
+  color: currentColor;
+}
+
+address {
+  font-style: normal;
 }
 
 button {
   cursor: pointer;
 }
+
+.conteiner {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 /*------------header-----------*/
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-nav {
@@ -86,6 +113,7 @@ button {
 /*------------hero-------------*/
 
 .hero {
+  height: 600px;
   background: #2e2f42;
 }
 
@@ -96,6 +124,10 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  padding-top: 188px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-order-btn {
@@ -121,6 +153,8 @@ button {
 /*------------advantages-----------*/
 
 .advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-list {
 }
@@ -155,8 +189,11 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .team-list {
+  padding-bottom: 120px;
 }
 .team-item {
   background-color: #ffffff;
@@ -193,8 +230,11 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .portfolio-list {
+  padding-bottom: 120px;
 }
 .portfolio-item {
 }
@@ -219,6 +259,7 @@ button {
 /*------------footer-----------*/
 
 .footer {
+  padding-top: 100px;
   background: #2e2f42;
 }
 .footer-logo {
@@ -229,13 +270,17 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-top: 100px;
 }
 .footer-logo-span {
   color: #f4f4fd;
+  padding-top: 100px;
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding-bottom: 100px;
+  margin-top: 16px;
 }
