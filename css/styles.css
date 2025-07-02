@@ -40,7 +40,7 @@ img {
   display: block;
 }
 
-.conteiner {
+.container {
   width: 1128px;
   padding-left: 15px;
   padding-right: 15px;
@@ -51,6 +51,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -170,6 +171,7 @@ img {
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin: 0 auto;
+  min-width: 169px;
 }
 
 .hero-order-btn:hover {
@@ -311,7 +313,7 @@ img {
   color: #434455;
 }
 
-.conteiner-item-text {
+.container-item-text {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
